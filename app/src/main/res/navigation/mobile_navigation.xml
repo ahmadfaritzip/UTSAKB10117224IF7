@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.utsakb10117224if7.ui.profil.ProfilFragment"
+        android:label="@string/title_profil"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.utsakb10117224if7.ui.kontak.KontakFragment"
+        android:label="@string/title_kontak"
+        tools:layout="@layout/fragment_kontak" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.utsakb10117224if7.ui.daftar.DaftarFragment"
+        android:label="@string/title_daftar"
+        tools:layout="@layout/fragment_daftar" />
+
+    <fragment
+        android:id="@+id/tab_info_app"
+        android:name="com.example.utsakb10117224if7.ui.infoApp.InfoAppFragment"
+        android:label="@string/title_info_app"
+        tools:layout="@layout/fragment_daftar" />
+</navigation>

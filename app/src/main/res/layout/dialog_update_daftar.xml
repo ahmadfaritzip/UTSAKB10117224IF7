@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_round">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <TextView
+            android:id="@+id/edit_text_nim_ubah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="NIM"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/edit_text_nama_ubah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_below="@+id/edit_text_nim"
+            android:hint="Nama"
+            android:padding="10dp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/edit_text_kelas_ubah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_below="@+id/edit_text_nama"
+            android:hint="Kelas"
+            android:padding="10dp"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/edit_text_telp_ubah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_below="@+id/edit_text_kelas"
+            android:hint="No Hp"
+            android:padding="10dp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/edit_text_email_ubah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_below="@+id/edit_text_telp"
+            android:hint="Email"
+            android:padding="10dp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/edit_text_sosmed_ubah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_below="@+id/edit_text_email"
+            android:hint="Instagram"
+            android:padding="10dp"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btn_form_ubah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubah"
+            android:padding="1dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_style1"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

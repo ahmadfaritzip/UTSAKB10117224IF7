@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UTS AKB 10117224 IF7</string>
+    <string name="title_profil">Profil</string>
+    <string name="title_kontak">Kontak</string>
+    <string name="title_daftar">Daftar</string>
+    <string name="title_info_app">Daftar</string>
+    <string name="nama">Ahmad Faritz Ied Putra</string>
+    <string name="nim">10117224</string>
+    <string name="kelas">IF - 7</string>
+    <string name="deskripsi">Saya adalah Mahasiswa di Universitas Komputer Indonesia yang sekarang masih menjalaninya di semester 6 dengan jurusan Teknik Informatika, kegiantan sehari hari yang saya lakukan bermain CTF, Programing, Belajar, dan Rebahan</string>
+    <string name="deskripsi_app">Afip adalah aplikasi yang digunakan untuk menambahkan serta menghapus nama teman anda.</string>
+</resources>

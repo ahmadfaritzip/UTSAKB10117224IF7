@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4462f2</color>
+    <color name="colorPrimaryDark">#3636c1</color>
+    <color name="colorAccent">#4462f2</color>
+    <color name="colorAccentGrey">#222222</color>
+    <color name="colorGrey">#dfe9f4</color>
+    <color name="bgColorKontak">#f0f0f4</color>
+</resources>
